@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-    </script>
-    <title>Whiskey Drop | Taste good whiskey!</title>
+    <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -34,6 +29,9 @@
                             <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
+                    <div class="container text-center">
+                        <p class="navbar-text my-auto mr-2"><i>Special welcome offer on now!</i></p>
+                    </div>
                     <div class="container d-none d-lg-block text-end">
                         <p class="navbar-text my-auto mr-2"><i>Welcome to Whiskey Drop</i></p>
                         <a href="/login">Sign In / Sign Up</a>
@@ -42,55 +40,90 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section class="callout">
-            <br>
-            <div class="container mt-lg-3">
-                <div class="row">
-                    <div class="col-12 pt-5">
-                        <h1>Whiskey Drop</h1>
-                        <p class="lead">Whiskey Drop is a whiskey subscription service that delivers a variety of
-                            whiskey
-                            samples to your door every month. We offer a variety of whiskey samples
-                            from around the world, so you can discover new and exciting whiskeys without having to
-                            commit to
-                            a full bottle.</p>
-                    </div>
+    <br>
+    <article class="container mt-3 my-5">
+        <!-- Callout -->
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center my-lg-5">
+                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month.
+                        <s class="d-none d-sm-inline">€19.99</s>
+                        <span class="d-inline d-sm-none"><br></span>
+                        <strong><mark>First one is free!</mark></strong></p>
+                    <p><button class="btn btn-lg btn-success">Sign Up!</button></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
+                            responsibly.</small></p>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+        <hr>
+        <!-- Quotes -->
+        <section class="quotes">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Quotes:</h2>
+                    <hr />
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h2>How it Works</h2>
-                        <p class="lead">When you sign up for Whiskey Drop, you'll receive a box of whiskey samples every
-                            month. Each box contains a variety of whiskey samples from around the world,
-                            so you can discover new and exciting whiskeys without having to commit to a full bottle. You
-                            can
-                            choose from a variety of subscription plans, so you can find
-                            the one that works best for you.</p>
-                        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink
-                                responsibly.</small></p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                        <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                    </blockquote>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Why Choose Whiskey Drop</h2>
-                        <p class="lead">There are a lot of whiskey subscription services out there, but Whiskey Drop is
-                            different. We offer a variety of whiskey samples from around the world,
-                            so you can discover new and exciting whiskeys without having to commit to a full bottle. We
-                            also
-                            offer a variety of subscription plans, so you can find
-                            the one that works best for you. Plus, our boxes are delivered right to your door, so you
-                            don't
-                            have to worry about going to the store to pick them up.</p>
-                    </div>
+                <div class="col-12 col-md-6">
+                    <blockquote class="blockquote">
+                        <p>I haven't been sober for months!</p>
+                        <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+                    </blockquote>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Get Started Today</h2>
+            </div>
         </section>
-
-
+        <!-- /.quotes -->
+        <hr>
+        <!-- Features -->
+        <section class="features">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h2 class="text-uppercase">Features:</h2>
+                    <hr />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <div class="feature">
+                        <h3>Feature 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /.features -->
+    </article>
 </body>
 
 </html>
