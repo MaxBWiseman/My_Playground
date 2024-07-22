@@ -1,5 +1,5 @@
 .bg-image-class {
-    background-image: url('/images/whiskeyscene.jpg'); 
+    background-image: url('../images/whiskeyscenedark.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
